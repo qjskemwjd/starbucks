@@ -30,6 +30,12 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/signin.css">
+
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
 
 
     <script defer src="../js/common.js"></script>
@@ -368,8 +374,111 @@
     </header>
 
     <section class="signin">
-
+        <h1>로그인</h1>
+        <div class="signin__card">
+            <h2><strong>Welcome!</strong> 스타벅스에 오신 것을 환영합니다.</h2>
+            <form>
+                <input type="text" placeholder="아이디를 입력하세요." />
+                <input type="text" placeholder="비밀번호를 입력하세요." />
+                <span class="checkWrap">
+                    <input type="checkbox" name="idRemb" id="idRemb" class="mem2">
+                    <label for="idRemb">아이디 저장</label>
+                </span>
+                <input type="submit" value="로그인">
+                <p>*비밀번호를 타 사이트와 같이 사용할 경우 도용 위험이 있으니,<br />
+                    정기적으로 비밀번호를 변경하세요!
+                </p>
+                <p>
+                    * 스타벅스 코리아의 공식 홈페이지는 Internet Explorer 9.0 이상, Chrome, Firefox, Safari
+                    브라우저에 최적화 되어있습니다.
+                </p>
+            </form>
+            <div class="actions">
+                <a href="javascript:void(0)">회원가입</a>
+                <a href="javascript:void(0)">아이디 찾기</a>
+                <a href="javascript:void(0)">비밀번호 찾기</a>
+            </div>
+        </div>
     </section>
+
+    <!-- FOOTER MENU-->
+    <section class="footer-menu">
+        <div class="inner">
+            <ul class="footer_first_menu">
+                <li class="footer_menu_ttl"><a href="javascript:void(0)">COMPANY</a></li>
+                <li>한눈에 보기</li>
+                <li>스타벅스 사명</li>
+                <li>스타벅스 소개</li>
+                <li>컴플라이언스</li>
+                <li>국내 뉴스룸</li>
+                <li>세계의 스타벅스</li>
+                <li>글로벌 뉴스룸</li>
+            </ul>
+            <ul class="footer_first_menu">
+                <li class="footer_menu_ttl"><a href="javascript:void(0)">CORPORATE SALES</a></li>
+                <li>단체 및 기업 구매 안내</li>
+                <li>단체 주문 배달 안내</li>
+            </ul>
+            <ul class="footer_first_menu">
+                <li class="footer_menu_ttl"><a href="javascript:void(0)">PARTNERSHIP</a></li>
+                <li>신규 입점 제의</li>
+                <li>협력 고객사 등록신청</li>
+                <li>중개업체 확인</li>
+
+            </ul>
+            <ul class="footer_first_menu">
+                <li class="footer_menu_ttl"><a href="javascript:void(0)">ONLINE COMMUNITY</a></li>
+                <li>페이스북</li>
+                <li>트위터</li>
+                <li>유튜브</li>
+                <li>인스타그램</li>
+
+            </ul>
+            <ul class="footer_first_menu">
+                <li class="footer_menu_ttl"><a href="javascript:void(0)">RECRUIT</a></li>
+                <li>채용 소개</li>
+                <li>채용 지원하기</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section class="awards">
+        <div class="inner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../images/awards_slide1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../images/awards_slide2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../images/awards_slide3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../images/awards_slide4.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../images/awards_slide5.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../images/awards_slide6.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../images/awards_slide7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-prev">
+                <div class="material-symbols-outlined">arrow_back</div>
+            </div>
+            <div class="swiper-next">
+                <div class="material-symbols-outlined">arrow_forward</div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- FOOTER -->
     <footer>
